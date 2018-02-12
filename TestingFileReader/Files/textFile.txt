@@ -1,0 +1,6 @@
+Late Binding with a VBScript Client
+Late-binding is so called because you don’t know if the methods exist until run-time. 
+Late binding is based on the standard COM IDispatch interface, which has methods that 
+return information about the methods and properties on an interface so that they can be 
+discovered at run time. As an analogy, it’s somewhat the equivalent of using .NET 
+reflection to find the structure and methods of .NET classes.
